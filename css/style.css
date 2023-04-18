@@ -67,6 +67,10 @@ header {
     background-color: rgb(44, 44, 44);
 }
 
+.Titulos {
+      text-align: center;
+}
+
 .main-container-1 {
     width: 100vw;
     height: 100vh;
@@ -211,6 +215,8 @@ header {
 .Nombres {
     color: white;
     font-weight: bold;
+    font-family: "Nexa-ExtraLight";
+    font-size: medium;
 }
 
 .Texto {
