@@ -104,8 +104,8 @@ header {
     justify-items: center;
     justify-content: center;
     display: grid;
-    grid-template-rows: 27rem 27rem;
-    grid-template-columns: 50rem 5rem 42rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 5rem 1fr;
     row-gap: 1rem;
     column-gap: 1rem;
 }
@@ -124,7 +124,7 @@ header {
     text-decoration: none;
     font-style: oblique;
     color: white;
-    font-size: medium;
+    font-size: small;
     position: absolute;
     left: 4px;
     bottom: 4px;
@@ -143,7 +143,7 @@ header {
     text-decoration: none;
     font-style: oblique;
     color: white;
-    font-size: medium;
+    font-size: small;
     position: absolute;
     left: 4px;
     bottom: 4px;
@@ -163,7 +163,7 @@ header {
     text-decoration: none;
     font-style: oblique;
     color: white;
-    font-size: medium;
+    font-size: small;
     position: absolute;
     left: 4px;
     bottom: 4px;
@@ -183,7 +183,7 @@ header {
     text-decoration: none;
     font-style: oblique;
     color: white;
-    font-size: medium;
+    font-size: small;
     position: absolute;
     left: 4px;
     bottom: 4px;
