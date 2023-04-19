@@ -12,29 +12,37 @@
 </head>
 <body>
    <header>
-        <img class="logo-principal" src="img/header/Logo - Mas Pequeño.jpg" alt="Logo de la Empresa - StudioTKArchitects">
-            <nav>
-                <ul class="Menu">
-                    <li>
-                        <a class="Enlaces" href="index.html">INICIO</a>
-                    </li>
-                    <li>
-                        <a class="Enlaces" href="pages/Studio.html">STUDIO</a>
-                    </li>            
-                    <li>
-                        <a class="Enlaces" href="pages/Proyectos_G.html">PROYECTOS</a>
-                    </li>
-                    <li>
-                        <a class="Enlaces" href="pages/Contactos.html">CONTACTOS</a>
-                    </li>
-                    <li>
-                        <a class="Enlaces" href="pages/Redes.html">REDES</a>
-                    </li>
-                </ul>    
-            </nav>
+    <nav class="navbar navbar-expand-lg fondo-nav">
+      <div class="container-fluid navegador mx-2">
+        <a class="navbar-brand" href="index.html"><img class="logo-principal" src="img/header/Logo - Mas Pequeño.jpg" alt="Logo de la Empresa - StudioTKArchitects"></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex flex-lg-row justify-content-end" id="navbarSupportedContent" >
+          <ul class="navbar-nav Menu">
+          <li class="nav-item">
+              <a class="nav-link Enlaces" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link Enlaces" href="pages/Studio.html">STUDIO</a>
+          </li>            
+          <li class="nav-item">
+              <a class="nav-link Enlaces" href="pages/Proyectos_G.html">PROYECTOS</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link Enlaces" href="pages/Contactos.html">CONTACTOS</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link Enlaces" href="pages/Redes.html">REDES</a>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     </header>  
       <section>
-        <div id="carouselExampleCaptions" class="carousel slide main-container-1">
+        <h1 class="Titulos">ULTIMOS PROYECTOS</h1>
+        <div id="carouselExampleCaptions" class="carousel slide main-container-1" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,29 +50,25 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div class="carousel-inner">
-            <h1 class="Titulos">PROYECTOS</h1>
             <div class="carousel-item active">
               <a href="Pages/Proyectos_1In.html"><img src="img/Inicio/Proyecto Cazusa.png" class="d-block w-100" alt="Proyecto Cazusa - Complejo Educativo">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Complejo Educativo Cazusa - 2020</h5>
               </div>
             </div>
             <div class="carousel-item">
               <a href="Pages/Proyectos_2In.html"><img src="img/Inicio//Remodelación Apto_Acropolis.png" class="d-block w-100" alt="Proyecto Remodelación de Apartamento - Acropolis">
               <div class="carousel-caption d-none d-md-block">
-              <h5>Remodelación de Apartamento - Acropolis - 2023</h5>
+
               </div>
             </div>
             <div class="carousel-item">
               <a href="Pages/Proyectos_3In.html"><img src="img/Inicio/Remodelación Apto_Arboleda.png" class="d-block w-100" alt="Proyecto Remodelación de Apartamento - Arboleda">
               <div class="carousel-caption d-none d-md-block">
-              <h5>Remodelación de Apartamento - Arboleda - 2022</h5>
               </div>
             </div>
             <div class="carousel-item">
               <a href="Pages/Proyectos_4In.html"><img src="img/Inicio/Zona Gamer.png" class="d-block w-100" alt="Proyecto Zona Gamer">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Diseño Zona Gamer - 2022</h5>
               </div>
             </div>
           </div>
@@ -77,8 +81,40 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </section> 
+      </section>
+      <section>
+        <ul class="main-container-3 fila-de-imagenes desvanecido">
+            <li class=>
+                <a href="pages/Proyectos_1In.html"><img src="img/Inicio/Proyecto Cazusa.png" alt="Proyecto Cazusa - Complejo Educativo">
+                </a>    
+                <a href="pages/Proyectos_1In.html"><h3 class="Nombres">Complejo Educativo Cazusa</h3>
+                </a>
+            </li>                
+            <li class=>
+                <a href="pages/Proyectos_2In.html"><img src="img/Inicio//Remodelación Apto_Acropolis.png" alt="Proyecto Remodelación de Apartamento - Acropolis">
+                </a>
+                <a href="pages/Proyectos_2In.html"><h3 class="Nombres">Remodelación de Apartamento - Acropolis</h3>
+                </a>
+            </li>   
+            <li class=>
+                <a href="pages/Proyectos_3In.html"><img src="img/Inicio//Remodelación Apto_Arboleda.png" alt="Proyecto Remodelación de Apartamento - Arboleda">
+                    <a href="pages/Proyectos_3In.html"><h3 class="Nombres">Remodelación de Apartamento - Arboleda</h3>
+                    </a>
+            </li>
+            <li class=>
+                <a href="pages/Proyectos_4In.html"><img src="img/Inicio/Zona Gamer.png" alt="Proyecto Zona Gamer">
+                    <a href="pages/Proyectos_4In.html"><h3 class="Nombres">Diseño Zona Gamer</h3>
+                    </a>
+            </li>
+          </ul>
+    </section> 
     </main>
+    <footer class="footer-inicio">
+      <div class="caja-footer">
+          <h4>2023 ©</h4>
+          <a class="Enlace-Correo" href="mailto:studiotkarchitects@gmail.com">StudioTKArchitects@gmail.com</a>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

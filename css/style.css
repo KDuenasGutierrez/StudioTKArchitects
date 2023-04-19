@@ -8,13 +8,13 @@
 }
 
 *{
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html{
-    font-family: 'Nexa-Extralight', sans-serif;   
+    font-family: 'Nexa-Extralight', sans-serif;
 }
 
 .logo-ajuste {
@@ -30,27 +30,37 @@ body {
 header {
     list-style: none;
     background-color: #060808;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-flow: wrap;
-    height: 6rem;
+    height: rem;
     width: 100vw;
-    position: sticky;
+    position: sticky !important;
     top: 0;
     z-index: 1;
 }
 
+.fondo-nav {
+    background-color: #060808
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .logo-principal {
-    height: 6rem;
-    margin: 0 0 0 2rem;
+    height: 5rem;
+    margin: 0 0 0 0;
 }
 
 .Menu {
     display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     margin: 2rem 2rem 0 0 ;
-    flex-flow: row wrap;
+    z-index: 10;
 }
 
 .Enlaces {
@@ -72,22 +82,27 @@ header {
 }
 
 .main-container-1 {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     position: relative;
 }
 
 .main-container-1 img{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
 }
 
 .main-container-1 h5{
     text-decoration: none;
     font-style: oblique;
     color: white;
-    font-size: larger;
+    font-size: medium;
     font-weight: 900;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 10rem;
+    bottom: 10rem; 
 }
 
 .filtros {
@@ -113,6 +128,36 @@ header {
     row-gap: 1rem;
     column-gap: 1rem;
 }
+
+.imagenes {
+    transition: opacity 0.2s;
+  }
+  
+.desvanecido:hover .imagenes:not(:hover) {
+    
+    opacity: 0.3;
+  }
+
+  .main-container-3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.main-container-3 img{
+    width: 100%;
+    height: auto;
+}
+
+.main-container-3 a{
+    text-decoration: none;
+    font-style: oblique;
+    color: white;
+    font-size: medium;
+}
+
 
 .proyecto1 {
     grid-row: 1/2;
@@ -213,6 +258,7 @@ header {
 }
 
 .Nombres {
+    text-decoration: none;
     color: white;
     font-weight: bold;
     font-family: "Nexa-ExtraLight";
@@ -241,7 +287,7 @@ header {
     height: auto;
     border: white;
     border-style: solid;
-    display: flex; 
+    display: flex;
 }
 .perfiles h3 {
     text-align: center;
@@ -293,6 +339,7 @@ iframe {
     height: 45rem;
 }
 
+
 footer div {
     height: 4rem;
     padding: 1rem 0;
@@ -322,10 +369,47 @@ footer div {
     color: white
 }
 
-.caja-footer img{
-    width: 2rem;
-    height: auto;   
+@media screen and (min-width: 939px) { 
+
+    .footer-inicio {
+        display: none;
+    } 
 }
+
+@media screen and (max-width: 912px) {
+    #carouselExampleCaptions {
+        display: none;
+    }
+    h1 {
+        font-size: larger;
+    }
+    .Nombres {
+        text-decoration: none;
+        color: white;
+        font-family: "Nexa-ExtraLight";
+        font-size: smaller;
+    }
+}
+
+@media screen and (min-width: 820px) and (orientation: landscape) {
+    .fila-de-imagenes {
+        display: none;
+    }
+    
+}
+
+@media screen and (orientation: landscape) {
+    .fila-de-imagenes {
+        display: none;
+    }
+    #carouselExampleCaptions {
+        display:initial;
+    }
+
+
+    
+}
+
 
 .Enlace-Correo {
     font-size: smaller;
