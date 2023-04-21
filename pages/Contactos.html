@@ -43,35 +43,29 @@
     <main>
         <div class="caja">
             <h1 class="Titulos">COTIZA TU PROXIMO PROYECTO</h1>
-            <form>
-                <ul class="formulario">
-                <li>
-                    <label 
-                    for="Nombre/FirstName">Nombre/First Name
-                    </label>
-                    <input type="text" id="Nombre/FirstName" name="Nombre/First Name" placeholder="Kevin Mateo">
-                </li>
-                <li>
-                    <label for="Apellido/LastName">Apellido/Last Name</label>
-                    <input type="text" id="Nombre/LastName" name="Nombre/Last Name" placeholder="Dueñas Gutierrez">
-                </li>
-                <li>
-                    <label for="Correo/Email">Correo/Email</label>
-                    <input type="email" id="Correo/Email" name="Correo/Email" placeholder="ejemplo.example@unmail.com">
-                </li>
-                <li>
-                    <label for="Mensaje/Message">Mensaje/Message</label>
-                    <textarea name="Mensaje/Message" id="Mensaje/Message" cols="30" rows="5" placeholder=""></textarea>
-                </li>
-                <li>
-                    <label for="Adjuntar/Attach">Adjuntar/Attach</label>
-                    <textarea name="Adjuntar/Attach" id="Adjuntar/Attach" cols="30" rows="5" placeholder="Adjuntar/Attach"></textarea>
-                </li>
-                <li>
-                    <input type="submit" value="Enviar/Send">
-                </li>
-                </ul>          
-            </form>
+            <div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">Nombre/FirstName</span>
+                    <input type="text" class="form-control" placeholder="Kevin Mateo" aria-label="Nombre/FirstName" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon2">Apellido/LastName</span>
+                    <input type="text" class="form-control" placeholder="Dueñas Gutierrez" aria-label="Apellido/LastName" aria-describedby="basic-addon2">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="example" aria-label="email_1">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" placeholder="email.com" aria-label="email_2">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Mensaje/Message</span>
+                    <textarea class="form-control" aria-label="Mensaje/Message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label"></label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
