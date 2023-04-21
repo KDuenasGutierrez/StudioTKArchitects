@@ -238,23 +238,62 @@ header {
     bottom: 4px;
 }
 
-.Section-Centrado {
+.Section-studio {
+    height: 65rem;
+    width: 100vw;
+}
+
+.grid-studio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1rem 1fr 1rem 1fr;
+}
+
+.parrafostudio {
+    grid-column: 2/5;
+    grid-row: 2/3;
+    text-align:justify;
+}
+
+.perfil_1 {
+    grid-column: 2/3 ;
+    grid-row: 4/5 ;
+}
+
+.perfil_2 {
+    grid-column: 4/5 ;
+    grid-row: 4/5 ;
+}
+.perfil_1 img {
+    width: 100%;
+    height: auto;
+    border: white;
+    border-style: solid;
+}
+
+.perfil_1 h3 {
     text-align: center;
 }
 
-.Section-Centrado .Titulos {
-    margin-top: 5rem;
+.perfil_2 img {
+    width: 100%;
+    height: auto;
+    border: white;
+    border-style: solid;
 }
-
-.Section-Centrado .parrafo-estudio{
-    position: relative;
-    margin: 3rem 25rem 3rem 25rem;
+.perfil_2 h3 {
+    text-align: center;
 }
 
 .Titulos {
     color: white;
     font-family: "Nexa-Heavy";
     font-weight: bold;
+}
+
+.studio {
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .Nombres {
@@ -268,33 +307,6 @@ header {
 .Texto {
     color: white;
     font-style: italic;
-}
-
-.perfiles {
-    align-items: space-around;
-    align-content: flex-start;
-}
-
-.perfiles ul {
-    list-style: none;
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: space-around;
-}
-
-.perfiles img {
-    width: 20rem;
-    height: auto;
-    border: white;
-    border-style: solid;
-    display: flex;
-}
-.perfiles h3 {
-    text-align: center;
-}
-
-.imagenes-perfil {
-    margin: 0 0 5rem 0;
 }
 
 main .caja {
@@ -342,7 +354,7 @@ iframe {
 
 footer div {
     height: 4rem;
-    padding: 1rem 0;
+    padding: 5px 0;
     border: transparent;
     border-top: #ffffff solid 0.25rem;
 }
@@ -395,7 +407,6 @@ footer div {
     .fila-de-imagenes {
         display: none;
     }
-    
 }
 
 @media screen and (orientation: landscape) {
@@ -404,7 +415,12 @@ footer div {
     }
     #carouselExampleCaptions {
         display:initial;
-    }   
+    }
+
+    .Section-studio {
+        height: 47rem;
+        width: 100vw;
+    }
 }
 
 
