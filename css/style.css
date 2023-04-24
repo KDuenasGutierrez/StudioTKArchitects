@@ -410,14 +410,6 @@ footer div {
     }
 }
 
-@media screen and () and (orientation: landscape) {
-      
-    .main-container-2 {
-
-        display: none;
-    }
-}
-
 .Enlace-Correo {
     font-size: smaller;
     font-weight: 100;
