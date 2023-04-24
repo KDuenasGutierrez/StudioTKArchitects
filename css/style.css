@@ -410,7 +410,7 @@ footer div {
     }
 }
 
-@media screen and (orientation: landscape) {
+@media screen and () and (orientation: landscape) {
       
     .main-container-2 {
 
