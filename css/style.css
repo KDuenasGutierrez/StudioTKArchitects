@@ -395,21 +395,17 @@ footer div {
         width: 20rem;
         height: 30rem;
     }
+
 }
 
-@media screen and (min-width: 820px) and (orientation: landscape) {
+@media screen and (min-width: 912px) {
     .fila-de-imagenes {
         display: none;
     }
 }
 
 @media screen and (orientation: landscape) {
-    .fila-de-imagenes {
-        display: none;
-    }
-    #carouselExampleCaptions {
-        display:initial;
-    }
+      
     .main-container-2 {
         list-style: none;
         padding: 5px 1rem 1rem 1rem;
@@ -427,7 +423,6 @@ footer div {
         width: 100vw;
     }
 }
-
 
 .Enlace-Correo {
     font-size: smaller;
