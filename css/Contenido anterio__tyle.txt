@@ -17,10 +17,6 @@ html{
     font-family: 'Nexa-Extralight', sans-serif;
 }
 
-.logo-ajuste {
-    width: auto;
-    height: 100%;
-}
 
 body {
     background-color: #060808;

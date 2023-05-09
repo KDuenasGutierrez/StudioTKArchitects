@@ -1,0 +1,50 @@
+header {
+    list-style: none;
+    background-color: $color-primary;
+    width: 100vw;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+
+    nav {
+        
+        background-color: $color-primary;
+
+        .navegador {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .logo-principal {
+                height: 5rem;
+                margin: 0 0 0 0;
+            }
+
+            .Menu {
+                display: flex;
+                flex-flow: row wrap;
+                justify-items: center;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                margin: 2rem 2rem 0 0 ;
+                z-index: 10;
+
+                .Enlaces {
+                    list-style: none;
+                    text-decoration: none;
+                    font-family: "Nexa-Heavy";
+                    font-weight: 200;
+                    color: white;
+                    padding: 0.5rem;
+                
+                    &:hover{
+                        color: #ffffff;
+                        background-color: rgb(44, 44, 44);
+                    }
+                }
+            }
+        }
+        
+    }
+}
