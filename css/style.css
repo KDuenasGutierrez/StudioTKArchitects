@@ -291,4 +291,66 @@ main .redes iframe {
   height: 35rem;
 }
 
+footer .caja-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 2rem;
+  border: transparent;
+  border-top: #ffffff solid 0.25rem;
+}
+footer .caja-footer h4 {
+  font-size: smaller;
+  font-weight: 100;
+  font-style: italic;
+  color: white;
+}
+footer .caja-footer a {
+  font-size: smaller;
+  font-weight: 100;
+  font-style: oblique;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (min-width: 939px) {
+  .footer-inicio {
+    display: none;
+  }
+}
+@media screen and (min-width: 2560px) {
+  footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 912px) {
+  #carouselExampleCaptions {
+    display: none;
+  }
+  .main-container-2 {
+    display: none;
+  }
+  h1 {
+    font-size: larger;
+  }
+  .Nombres {
+    text-decoration: none;
+    color: white;
+    font-family: "Nexa-ExtraLight";
+    font-size: smaller;
+  }
+  iframe {
+    width: 20rem;
+    height: 30rem;
+  }
+}
+@media screen and (min-width: 912px) {
+  .fila-de-imagenes {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
