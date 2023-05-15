@@ -70,16 +70,11 @@ main {
             position:relative;
 
             img {
-                height: 100%;
-                width: 100%;
-                border: white solid 1px;
+                @include imagenes-en-grid; 
             }
 
             h3 {
-                text-decoration: none;
-                font-style: oblique;
-                color: white;
-                font-size: small;
+                @include titulo-en-proyecto;
                 position: absolute;
                 left: 4px;
                 bottom: 4px;
@@ -93,16 +88,11 @@ main {
             position:relative;
 
             img {
-                height: 100%;
-                width: 100%;
-                border: white solid 1px;
+                @include imagenes-en-grid; 
             }
 
             h3{
-                text-decoration: none;
-                font-style: oblique;
-                color: white;
-                font-size: small;
+                @include titulo-en-proyecto;
                 position: absolute;
                 left: 4px;
                 bottom: 4px;
@@ -115,16 +105,11 @@ main {
             position:relative;
 
             img {
-                height: 100%;
-                width: 100%;
-                border: white solid 1px;
+                @include imagenes-en-grid; 
             }
 
             h3{
-                text-decoration: none;
-                font-style: oblique;
-                color: white;
-                font-size: small;
+                @include titulo-en-proyecto;
                 position: absolute;
                 left: 4px;
                 bottom: 4px;
@@ -137,16 +122,11 @@ main {
             position:relative;
 
             img {
-                height: 100%;
-                width: 100%;
-                border: white solid 1px;        
+                @include imagenes-en-grid;        
             }
 
             h3{
-                text-decoration: none;
-                font-style: oblique;
-                color: white;
-                font-size: small;
+                @include titulo-en-proyecto;
                 position: absolute;
                 left: 4px;
                 bottom: 4px;

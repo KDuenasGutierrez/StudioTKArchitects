@@ -21,7 +21,7 @@ html .Titulos {
   font-family: "Nexa-Heavy";
   font-weight: bold;
 }
-html .Nombres {
+html .Nombres, html footer .caja-footer a, footer .caja-footer html a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -309,10 +309,7 @@ footer .caja-footer h4 {
 }
 footer .caja-footer a {
   font-size: smaller;
-  font-weight: 100;
   font-style: oblique;
-  color: white;
-  text-decoration: none;
   text-align: center;
 }
 
@@ -336,7 +333,7 @@ footer .caja-footer a {
   h1 {
     font-size: larger;
   }
-  .Nombres {
+  .Nombres, footer .caja-footer a {
     text-decoration: none;
     color: white;
     font-family: "Nexa-ExtraLight";
