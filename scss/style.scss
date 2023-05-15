@@ -7,36 +7,3 @@
 @import "partials/3main";
 @import "partials/4footer";
 @import "partials/5mediaq";
-
-
-
-
-
-
-
-
-
-@mixin media-query($pantalla) {
-
-    @if $pantalla == Tablet {
-
-        @media screen and (max-width:912px){
-            
-            @content;   
-        }
-    }
-
-    @else if $pantalla == mobile {
-        @media
-    }
-}
-
-body {
-    @include media-query(tablet) {
-        background-color: red;
-
-    }
-        
-
-
-}
