@@ -1,0 +1,31 @@
+html{
+    
+    font-family: $font-family;
+    
+    .Titulos {
+        text-align: center;
+        color: white;
+        font-family: "Nexa-Heavy";
+        font-weight: bold;
+    }
+
+    .Nombres {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-family: "Nexa-ExtraLight";
+        font-size: medium;
+    }
+    
+    .Texto {
+        color: white;
+        font-style: italic;
+    }
+
+    body {
+        background-color: $color-primary;
+        overflow-x: hidden;
+    }
+
+}
+

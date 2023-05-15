@@ -1,0 +1,12 @@
+@mixin imagenes-en-grid {
+    height: 100%;
+    width: 100%;
+    border: white solid 1px;
+}
+
+@mixin titulo-en-proyecto {
+    text-decoration: none;
+    font-style: oblique;
+    color: white;
+    font-size: small;
+}

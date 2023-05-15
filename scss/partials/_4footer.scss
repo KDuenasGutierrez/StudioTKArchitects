@@ -1,0 +1,30 @@
+footer {
+
+    .caja-footer {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 2rem;
+        border: transparent;
+        border-top: #ffffff solid 0.25rem;
+
+        h4 {
+            font-size: smaller;
+            font-weight: 100;
+            font-style: italic;
+            color: white;
+        }
+
+        a {
+            @extend .Nombres;
+            font-size: smaller;
+            font-style: oblique; 
+            text-align: center;
+        }
+    
+    }
+
+}
