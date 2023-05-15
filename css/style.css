@@ -88,7 +88,7 @@ main .desvanecido:hover .imagenes:not(:hover) {
   opacity: 0.3;
 }
 main .imagenes {
-  transition: opacity 0.2s;
+  transition: all opacity 2s;
 }
 main h1 {
   text-align: center;
@@ -327,9 +327,6 @@ footer .caja-footer a {
   #carouselExampleCaptions {
     display: none;
   }
-  .main-container-2 {
-    display: none;
-  }
   h1 {
     font-size: larger;
   }
@@ -342,6 +339,11 @@ footer .caja-footer a {
   iframe {
     width: 20rem;
     height: 30rem;
+  }
+}
+@media screen and (max-width: 912px) {
+  .cuadricula-de-imagenes {
+    display: none;
   }
 }
 @media screen and (min-width: 912px) {

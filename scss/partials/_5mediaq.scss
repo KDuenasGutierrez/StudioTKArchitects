@@ -16,9 +16,6 @@
     #carouselExampleCaptions {
         display: none;
     }
-    .main-container-2 {
-        display: none;
-    }
     h1 {
         font-size: larger;
     }
@@ -34,8 +31,15 @@
     }
 }
 
+@media screen and (max-width: 912px) {
+    .cuadricula-de-imagenes {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 912px) {
     .fila-de-imagenes {
         display: none;
     }
+
 }
