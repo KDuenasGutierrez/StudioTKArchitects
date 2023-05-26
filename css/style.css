@@ -234,11 +234,11 @@ main .proyectos_individuales_1 .proyectos_individuales_3 {
   grid-column: 2/3;
   list-style: none;
   display: grid;
-  grid-template-rows: 0.4fr 0.3fr 0.3fr;
+  grid-template-rows: 0.4fr 0.3fr 0.3fr 0.4fr;
   grid-template-columns: 1fr 1fr;
   row-gap: 10px;
   column-gap: 10px;
-  box-sizing: border-box;
+  overflow: auto;
 }
 main .proyectos_individuales_1 .proyectos_individuales_3 .item_9 {
   grid-row: 1/2;
@@ -277,6 +277,22 @@ main .proyectos_individuales_1 .proyectos_individuales_3 .item_13 {
   grid-column: 2/3;
 }
 main .proyectos_individuales_1 .proyectos_individuales_3 .item_13 img {
+  width: 100%;
+  height: 100%;
+}
+main .proyectos_individuales_1 .proyectos_individuales_3 .item_14 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+main .proyectos_individuales_1 .proyectos_individuales_3 .item_14 img {
+  width: 100%;
+  height: 100%;
+}
+main .proyectos_individuales_1 .proyectos_individuales_3 .item_15 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+main .proyectos_individuales_1 .proyectos_individuales_3 .item_15 img {
   width: 100%;
   height: 100%;
 }

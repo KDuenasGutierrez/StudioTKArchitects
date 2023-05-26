@@ -164,11 +164,11 @@ main {
             grid-column: 2/3;
             list-style: none;
             display: grid;
-            grid-template-rows: 0.4fr 0.3fr 0.3fr;
+            grid-template-rows: 0.4fr 0.3fr 0.3fr 0.4fr;
             grid-template-columns: 1fr 1fr;
             row-gap: 10px;
             column-gap: 10px;
-            box-sizing: border-box;
+            overflow: auto;
 
             .item_9{
 
@@ -211,6 +211,24 @@ main {
             }
             .item_13{
                 grid-row: 3/4;
+                grid-column: 2/3;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .item_14{
+                grid-row: 4/5;
+                grid-column: 1/2;
+    
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .item_15{
+                grid-row: 4/5;
                 grid-column: 2/3;
     
                 img {
