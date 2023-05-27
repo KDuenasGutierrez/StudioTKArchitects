@@ -13,11 +13,20 @@
 }
 
 @media screen and (max-width: 912px) {
+    
     #carouselExampleCaptions {
+        display: none;
+    }
+    #Proy_Ind_Mq_1 {
         display: none;
     }
     h1 {
         font-size: larger;
+    }
+    h2 {
+        color: white;
+        font-weight: 250;
+        font-size: small;
     }
     .Nombres {
         text-decoration: none;
@@ -29,17 +38,17 @@
         width: 20rem;
         height: 30rem;
     }
-}
-
-@media screen and (max-width: 911px) {
     .cuadricula-de-imagenes {
         display: none;
     }
 }
 
-@media screen and (min-width: 913px) {
+@media screen and (min-width: 911px) {
+
     .fila-de-imagenes {
         display: none;
     }
-
+    #Proy_Ind_Mq_2 {
+        display: none;
+    }
 }
